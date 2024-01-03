@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Cases,,,,03-01-2024 18:48:10,03-01-2024 18:48:21,11.356s,PASSED
+,,,,,,,
+Test Cases/DELETE User,,,,03-01-2024 18:48:10,03-01-2024 18:48:16,5.931s,PASSED
+"response = sendRequest(findTestObject(""DELETE User""))",,,,03-01-2024 18:48:11,03-01-2024 18:48:16,4.998s,PASSED
+"verifyResponseStatusCode(response, 204)",,,,03-01-2024 18:48:16,03-01-2024 18:48:16,0.041s,PASSED
+,,,,,,,
+Test Cases/Get All User,,,,03-01-2024 18:48:16,03-01-2024 18:48:17,1.033s,PASSED
+"response = sendRequest(findTestObject(""Get All User""))",,,,03-01-2024 18:48:16,03-01-2024 18:48:17,0.550s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,03-01-2024 18:48:17,03-01-2024 18:48:17,0.015s,PASSED
+"verifyElementPropertyValue(response, ""data[2].email"", ""emma.wong@reqres.in"")",,,,03-01-2024 18:48:17,03-01-2024 18:48:17,0.251s,PASSED
+,,,,,,,
+Test Cases/Get Spesific User,,,,03-01-2024 18:48:17,03-01-2024 18:48:18,0.740s,PASSED
+"response = sendRequest(findTestObject(""Get Spesific User""))",,,,03-01-2024 18:48:17,03-01-2024 18:48:18,0.498s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,03-01-2024 18:48:18,03-01-2024 18:48:18,0.010s,PASSED
+"verifyElementPropertyValue(response, ""data.email"", ""eve.holt@reqres.in"")",,,,03-01-2024 18:48:18,03-01-2024 18:48:18,0.073s,PASSED
+,,,,,,,
+Test Cases/POST User,,,,03-01-2024 18:48:18,03-01-2024 18:48:19,1.327s,PASSED
+"response = sendRequest(findTestObject(""POST User""))",,,,03-01-2024 18:48:18,03-01-2024 18:48:19,1.075s,PASSED
+"verifyResponseStatusCode(response, 201)",,,,03-01-2024 18:48:19,03-01-2024 18:48:19,0.010s,PASSED
+"verifyElementPropertyValue(response, ""job"", ""Quality Assurance"")",,,,03-01-2024 18:48:19,03-01-2024 18:48:19,0.127s,PASSED
+,,,,,,,
+Test Cases/PUT User,,,,03-01-2024 18:48:19,03-01-2024 18:48:21,1.803s,PASSED
+"response = sendRequest(findTestObject(""PUT User""))",,,,03-01-2024 18:48:20,03-01-2024 18:48:21,1.573s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,03-01-2024 18:48:21,03-01-2024 18:48:21,0.010s,PASSED
+"verifyElementPropertyValue(response, ""job"", ""QA"")",,,,03-01-2024 18:48:21,03-01-2024 18:48:21,0.085s,PASSED

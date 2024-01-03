@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Cases" time="11.356" tests="5" failures="0" errors="0">
+   <testsuite name="Test Cases" tests="5" failures="0" errors="0" time="11.356" skipped="0" timestamp="03-01-2024T18:48:10" hostname="USER - DESKTOP-VOVVUC2" id="Test Suites/Test Cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER\\Katalon Studio\\Api-test\\Reports\\20240103_184755\\Test Cases\\20240103_184755"/>
+         <property name="logFiles" value="C:\\Users\\USER\\Katalon Studio\\Api-test\\Reports\\20240103_184755\\Test Cases\\20240103_184755\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="USER - DESKTOP-VOVVUC2"/>
+         <property name="hostAddress" value="192.168.43.192"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+      </properties>
+      <testcase name="Test Cases/DELETE User" time="5.931" classname="Test Cases/DELETE User" status="PASSED">
+         <system-out><![CDATA[03-01-2024T18:48:10 - [TEST_CASE][PASSED] - Test Cases/DELETE User: Test Cases/DELETE User
+
+03-01-2024T18:48:11 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("DELETE User")): Send request successfully
+
+03-01-2024T18:48:16 - [MESSAGE][INFO] - HAR: C:\Users\USER\Katalon Studio\Api-test\Reports\20240103_184755\Test Cases\20240103_184755\requests\main\0.har
+
+03-01-2024T18:48:16 - [MESSAGE][PASSED] - Send request successfully
+
+03-01-2024T18:48:16 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 204): Verify response status code successfully
+
+03-01-2024T18:48:16 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Get All User" time="1.033" classname="Test Cases/Get All User" status="PASSED">
+         <system-out><![CDATA[03-01-2024T18:48:16 - [TEST_CASE][PASSED] - Test Cases/Get All User: Test Cases/Get All User
+
+03-01-2024T18:48:16 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Get All User")): Send request successfully
+
+03-01-2024T18:48:17 - [MESSAGE][INFO] - HAR: C:\Users\USER\Katalon Studio\Api-test\Reports\20240103_184755\Test Cases\20240103_184755\requests\main\1.har
+
+03-01-2024T18:48:17 - [MESSAGE][PASSED] - Send request successfully
+
+03-01-2024T18:48:17 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+03-01-2024T18:48:17 - [MESSAGE][PASSED] - Verify response status code successfully
+
+03-01-2024T18:48:17 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[2].email", "emma.wong@reqres.in"): Verify element property value successfully
+
+03-01-2024T18:48:17 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Get Spesific User" time="0.74" classname="Test Cases/Get Spesific User" status="PASSED">
+         <system-out><![CDATA[03-01-2024T18:48:17 - [TEST_CASE][PASSED] - Test Cases/Get Spesific User: Test Cases/Get Spesific User
+
+03-01-2024T18:48:17 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Get Spesific User")): Send request successfully
+
+03-01-2024T18:48:18 - [MESSAGE][INFO] - HAR: C:\Users\USER\Katalon Studio\Api-test\Reports\20240103_184755\Test Cases\20240103_184755\requests\main\2.har
+
+03-01-2024T18:48:18 - [MESSAGE][PASSED] - Send request successfully
+
+03-01-2024T18:48:18 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+03-01-2024T18:48:18 - [MESSAGE][PASSED] - Verify response status code successfully
+
+03-01-2024T18:48:18 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.email", "eve.holt@reqres.in"): Verify element property value successfully
+
+03-01-2024T18:48:18 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/POST User" time="1.327" classname="Test Cases/POST User" status="PASSED">
+         <system-out><![CDATA[03-01-2024T18:48:18 - [TEST_CASE][PASSED] - Test Cases/POST User: Test Cases/POST User
+
+03-01-2024T18:48:18 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("POST User")): Send request successfully
+
+03-01-2024T18:48:19 - [MESSAGE][INFO] - HAR: C:\Users\USER\Katalon Studio\Api-test\Reports\20240103_184755\Test Cases\20240103_184755\requests\main\3.har
+
+03-01-2024T18:48:19 - [MESSAGE][PASSED] - Send request successfully
+
+03-01-2024T18:48:19 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+03-01-2024T18:48:19 - [MESSAGE][PASSED] - Verify response status code successfully
+
+03-01-2024T18:48:19 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "job", "Quality Assurance"): Verify element property value successfully
+
+03-01-2024T18:48:19 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PUT User" time="1.803" classname="Test Cases/PUT User" status="PASSED">
+         <system-out><![CDATA[03-01-2024T18:48:19 - [TEST_CASE][PASSED] - Test Cases/PUT User: Test Cases/PUT User
+
+03-01-2024T18:48:20 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("PUT User")): Send request successfully
+
+03-01-2024T18:48:21 - [MESSAGE][INFO] - HAR: C:\Users\USER\Katalon Studio\Api-test\Reports\20240103_184755\Test Cases\20240103_184755\requests\main\4.har
+
+03-01-2024T18:48:21 - [MESSAGE][PASSED] - Send request successfully
+
+03-01-2024T18:48:21 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+03-01-2024T18:48:21 - [MESSAGE][PASSED] - Verify response status code successfully
+
+03-01-2024T18:48:21 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "job", "QA"): Verify element property value successfully
+
+03-01-2024T18:48:21 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-01-2024T18:48:10 - [TEST_SUITE][PASSED] - Test Cases: Test Cases/PUT User]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
